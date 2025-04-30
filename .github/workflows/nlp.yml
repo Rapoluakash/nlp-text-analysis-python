@@ -33,6 +33,7 @@ jobs:
         python -m nltk.downloader maxent_ne_chunker
         python -m nltk.downloader words
 
+
     - name: Run NLP script
       run: |
         python nlp_analysis.py
